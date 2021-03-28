@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Pyatnashki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <div id="game">
+        <div id='sizeMatrix'>
+            <div id = 'choiceSize'>Выберете размер квадратной матрицы (не менее 3х3 и не более 9х9)</div>
+            <span>Размер матрицы:</span><input id='num' type="number" name="size" value="4" min="3" max="10" step="1">
+            <input id='choice' type="submit" value="Выбрать">
+        </div>
+        <div id="records">У Вас пока нет рекорда</div>
+        <table id="field" class="hidden"></table>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
